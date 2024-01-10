@@ -1,5 +1,5 @@
-Hello world :) *Italic*
-Hiii **Bold**
-hi :0 # Heading 1
-HI ## Heading 2
+*Hello world :)*
+**Hiii**
+# hi :0 1
+## HI 2
 
