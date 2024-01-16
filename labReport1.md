@@ -1,4 +1,6 @@
-# Commands with *no* arguments 1
+# Lab Report 1 1
+
+## Commands with *no* arguments 2
 
 **`cd`**
 ![Image](cdNoArg.png)
@@ -18,7 +20,7 @@
 * The command changes the terminal to be in standard text, instead of allowing the programmer to give commands. Since there is no argument, `cat` assumes that it should print input directly from the terminal. 
 * This is not an error.
 
-# Commands with a path to a *directory* as an argument 1
+## Commands with a path to a *directory* as an argument 2
 
 **`cd lecture1/messages`**
 ![Image](cdDirectory.png)
@@ -38,7 +40,7 @@
 * The command prints out the output that messages is a directory, meaning that we need to use a file after cat to print out a file's contents.
 * This is an error because `cat` cannot read the contents of a folder because a folder has no text or code content. It only contains other files in the filesystem.
 
-# Commands with a path to a *file* as an argument 1
+## Commands with a path to a *file* as an argument 2
 
 **`cd lecture1/Hello.java`**
 ![Image](cdFile.png)
