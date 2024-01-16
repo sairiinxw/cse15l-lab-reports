@@ -1,4 +1,4 @@
-## Lab Report 1 2
+# Lab Report One 1
 
 ## Commands with *no* arguments 2
 
