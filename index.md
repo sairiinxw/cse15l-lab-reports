@@ -11,6 +11,7 @@ This is an image ![Image](example.png)
 1. Or a numbered list
 2. like
 3. this
+
 We can also do horizontal rule
 ---
 `This is inline code with backticks` cool right?
