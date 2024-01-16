@@ -1,0 +1,33 @@
+1. Commands with *no* arguments
+**`cd`**
+![Image](cdNoArg.png)
+*Working directory: `/home`
+*
+*This is not an error.
+**`ls`**
+![Image](lsNoArg.png)
+*Working directory: `/home`
+*
+*This is not an error.
+**`cat`**
+![Image](catNoArg.png)
+*Working directory: `/home`
+*
+*This is not an error.
+
+2. Commands witha path to a *directory* as an argument
+**`cd lecture1/messages`**
+![Image](cdDirectory.png)
+*Working directory: `/home`
+*
+*This is not an error.
+**`ls messages`**
+![Image](lsDirectory.png)
+*Working directory: `/lecture1`
+*
+*This is not an error.
+**`cat messages`**
+![Image](catDirectory.png)
+*Working directory: `/lecture1`
+*
+*This is not an error.
