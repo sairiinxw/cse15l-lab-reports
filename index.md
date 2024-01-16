@@ -2,7 +2,7 @@
 **Hi in BOLD**
 # This is Heading One 1
 ## This is Heading Two 2
-This is a link [Link] (https://commonmark.org/help/)
+[This is a link called Markdown Reference] (https://commonmark.org/help/)
 This is an image ![Image](example.png)
 > Whoa this is a blockquote
 * listing things
