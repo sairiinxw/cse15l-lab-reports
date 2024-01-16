@@ -2,17 +2,17 @@
 **`cd`**
 ![Image](cdNoArg.png)
 *Working directory: `/home`
-*
+*There is no output becdause `cd` assumes that the argument is the current working directory, `/home`, which it is already in. It does not need to change directories.
 *This is not an error.
 **`ls`**
 ![Image](lsNoArg.png)
 *Working directory: `/home`
-*
+*The command prints out `lecture1` because `ls` functions to list out all files and folders in a directory. It assumes that the argument is the current working directory, so it only prints out 1 folder, which is directy under `/home` in the filesystem.
 *This is not an error.
 **`cat`**
 ![Image](catNoArg.png)
 *Working directory: `/home`
-*
+*The command changes the terminal to be in standard text, instead of allowing the programmer to give commands. Since there is no argument, `cat` assumes that it should print input directly from the terminal. 
 *This is not an error.
 
 2. Commands witha path to a *directory* as an argument
