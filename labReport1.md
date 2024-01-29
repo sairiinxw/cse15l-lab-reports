@@ -3,9 +3,9 @@
 ## Commands with *no* arguments
 
 **`cd`**
-![Image](cdNoArg.png)
-* Working directory: `/home`
-* There is no output becdause `cd` assumes that the argument is the current working directory, `/home`, which it is already in. It does not need to change directories.
+![Image](cdNoArg2.png)
+* Working directory: `/home/lecture1/messages`
+* The command `cd` causes the terminal to change directories and go back to the root directory `/home`. When `cd ..` is used, the terminal goes out one directory to `/lecture1`.
 * This is not an error.
 
 **`ls`**
