@@ -15,9 +15,9 @@
 * This is not an error.
 
 **`cat`**
-![Image](catNoArg.png)
+![Image](catNoArg2.png)
 * Working directory: `/home`
-* The command changes the terminal to be in standard text, instead of allowing the programmer to give commands. Since there is no argument, `cat` assumes that it should print input directly from the terminal. 
+* The command changes the terminal to be in standard text and allows the terminal to copy and print out user input after the user presses `Enter`. Since there is no file argument, `cat` assumes that it should print input directly from the terminal. In order to end command execution, the user must use `Ctrl + C`.
 * This is not an error.
 
 ## Commands with a path to a *directory* as an argument
