@@ -1,7 +1,7 @@
 # Lab Report 2: Servers and SSH Keys
 
 ## Part 1
-**`ChatServer` code**
+**`ChatServer.java` code**
 ```
 import java.io.IOException;
 import java.net.URI;
