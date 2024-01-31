@@ -56,10 +56,10 @@ class ChatServer {
 
 **Using `/add-message` Example 1**
 ![Image](2Example1.png)
-* Methods called: `/home`
-* Relevant arguments for methods:
-* Values of relevant class fields:
-* Changes in values after request:
+* Methods called: The code calls the main method in the `ChatServer` class, which calls the `start` method from the `Server class` to instantiate a `Handler` object. In the `Handler` class, the  `handleRequest` method is called when a request is made.
+* Relevant arguments for methods: The argument `args` in the `ChatServer` class holds an array of Strings with first element as `6032`. The argument `url` in the `Handler` class holds the URI from the web server.
+* Values of relevant class fields: The field `port` in the `ChatServer` class holds the int 6032, from `args[0]`. The fields `concatenated`, 'user', and `message` in the `Handler` class hold empty Strings.
+* Changes in values after request: Using the path `/add-message?s=Overcook time&user=cyrene`,
 
 **Using `/add-message` Example 2**
 ![Image](2Example2.png)
