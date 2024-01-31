@@ -92,9 +92,11 @@ class ChatServer {
 
 **Absolute path to the *private key* for SSH key**
 ![Image](SSHprivate.png)
+The absolute path is `/Users/Cyrene/.ssh/id_rsa`.
 
 **Absolute path to the *public key* for SSH key**
 ![Image](SSHpublic.png)
+The abosolute path is `/home/linux/ieng6/oce/27/727/cyw007/.ssh/authorized_keys`.
 
 **Terminal interaction with no password for `ieng6` account**
 ![Image](ieng6NoPWTerminal.png)
@@ -102,3 +104,8 @@ class ChatServer {
 ## Part 3
 
 **What I learned from Week 2-3 Labs**
+\
+&nbsp;&nbsp;&nbsp;&nbsp;
+In Week 2, I learned how to use a server on my local computer or remotely connect to my CSE account and a server using `ssh`. I learned that some port numbers have specific functions, but we can use any that 1000+. The `curl` command allows you to use the URL as an argument in the terminal.\
+&nbsp;&nbsp;&nbsp;&nbsp;
+In Week 3, I learned how to set up SSH Keys, so that I wouldn't have to log in with my password to access the `ieng6` servers. I learned that the command `scp` creates a secure copy between servers and the command `mkdir` creates new directories that don't exist.
