@@ -57,7 +57,7 @@ class ChatServer {
 **Using `/add-message` Example 1**
 ![Image](2Example1.png)
 * Methods called: The code calls the main method in the `ChatServer` class, which calls the `start` method from the `Server class` to instantiate a `Handler` object. In the `Handler` class, the  `handleRequest` method is called when a request is made.
-* Relevant arguments for methods: The argument `args` in the `ChatServer` class holds an array of Strings with first element as `6032`. The argument `url` in the `Handler` class holds the URI from the web server.
+* Relevant arguments for methods: The argument `args` in the `ChatServer` class holds an array of Strings with first element as `6032`. The argument `url` in the `Handler` class holds `new URI("https://0-0-0-0-6032-gocs03143leq13vfsdf9n77d9o.us.edusercontent.com/add-message?s=Overcook%20time&user=cyrene")` from the web server.
 * Values of relevant class fields: The field `port` in the `ChatServer` class holds the int 6032, from `args[0]`. The fields `concatenated`, 'user', and `message` in the `Handler` class hold empty Strings.
 * Changes in values after request:\
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -74,7 +74,7 @@ class ChatServer {
 **Using `/add-message` Example 2**
 ![Image](2Example2.png)
 * Methods called: The code calls the main method in the `ChatServer` class, which calls the `start` method from the `Server class` to instantiate a `Handler` object. In the `Handler` class, the  `handleRequest` method is called when a request is made.
-* Relevant arguments for methods: The argument `args` in the `ChatServer` class holds an array of Strings with first element as `6032`. The argument `url` in the `Handler` class holds the URI from the web server.
+* Relevant arguments for methods: The argument `args` in the `ChatServer` class holds an array of Strings with first element as `6032`. The argument `url` in the `Handler` class holds `new URI("https://0-0-0-0-6032-gocs03143leq13vfsdf9n77d9o.us.edusercontent.com/add-message?s=Let%27s%20play&user=keeva")` from the web server.
 * Values of relevant class fields: The field `port` in the `ChatServer` class holds the int 6032, from `args[0]`. The field `concatenated` in the `Handler` class holds the String `"cyrene: Overcook time"`. The field 'user' in the `Handler` class holds the String `"cyrene"`. The field `message` in the `Handler` class holds the String `"Overcook time"`.
 * Changes in values after request:\
 &nbsp;&nbsp;&nbsp;&nbsp;
