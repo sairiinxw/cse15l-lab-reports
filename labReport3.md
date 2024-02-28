@@ -1,6 +1,6 @@
-# Lab Report 3: Servers and SSH Keys
+# Lab Report 3: Bugs and Commands
 
-## Part 1
+## Part 1: Bugs
 
 **Using `/add-message` Example 1**
 ![Image](2Example1.png)
@@ -10,15 +10,32 @@
 ![Image](2Example2.png)
 
 
-## Part 2
+## Part 2: Researching Commands
 
-**Absolute path to the *private key* for SSH key**
-![Image](SSHprivate.png)
-The absolute path is `/Users/Cyrene/.ssh/id_rsa`.
+### `find`: 4 coommand-line options used on files and directories from `./technical`
+**Using `find -`**
+Example 1 command and output
+```
 
-**Absolute path to the *public key* for SSH key**
-![Image](SSHpublic.png)
-The abosolute path is `/home/linux/ieng6/oce/27/727/cyw007/.ssh/authorized_keys`.
+```
+*What it's doing and why it's useful:
+**Using `find -`**
+Example 2 command and output
+```
 
-**Terminal interaction with no password for `ieng6` account**
-![Image](ieng6NoPWTerminal.png)
+```
+*What it's doing and why it's useful:
+**Using `find -`**
+Example 3 command and output
+```
+
+```
+*What it's doing and why it's useful:
+**Using `find -`**
+Example 4 command and output
+```
+
+```
+*What it's doing and why it's useful:
+
+Source:
