@@ -6,6 +6,7 @@
 
 ### `find`: 4 command-line options used on files and directories from `./technical`
 **Using `find -regex`**
+\
 *Example 1 command and output on `./technical/911report` directory
 ```
 Cyrene@charless-MacBook-Pro technical % find 911report -regex ".*chapter.*"
@@ -38,6 +39,7 @@ Cyrene@charless-MacBook-Pro technical % find 911report/chapter-1.txt -regex ".*c
 \
 \
 **Using `find -mmin`**
+\
 *Example 1 command and output on `./technical/911report` directory
 ```
 Cyrene@charless-MacBook-Pro technical % find 911report -mmin -60
@@ -72,6 +74,7 @@ Cyrene@charless-MacBook-Pro technical % find 911report/chapter-2.txt -mmin -60
 \
 \
 **Using `find -exec {} \;`**
+\
 *Example 1 command and output on `./technical/911report` directory
 ```
 find 911report -name "chapter-13*" -exec grep terrorist {} \;
@@ -180,6 +183,7 @@ Cyrene@charless-MacBook-Pro technical % find 911report/chapter-3.txt -exec grep 
 \
 \
 **Using `find -maxdepth`**
+\
 *Example 1 command and output on `./technical` directory
 ```
 Cyrene@charless-MacBook-Pro technical % find . -maxdepth 2 -type d
