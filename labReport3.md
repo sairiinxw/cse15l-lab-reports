@@ -211,5 +211,5 @@ Cyrene@charless-MacBook-Pro technical % find 911report/preface.txt -maxdepth 2
 \
 \
 **Sources**
-[Red Hat] (https://www.redhat.com/sysadmin/linux-find-command)
-[IBM] (https://www.ibm.com/docs/pl/aix/7.1?topic=f-find-command)
+[https://www.redhat.com/sysadmin/linux-find-command)] (Red Hat)
+[https://www.ibm.com/docs/pl/aix/7.1?topic=f-find-command] (IBM)
