@@ -2,7 +2,8 @@
 
 ### Log into ieng6
 ![Image](4ieng6.png)
-Keys pressed: <up><up><up><up><enter>, <up><up><up><up><enter> The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 4 up in the search history, so I used up arrow to access it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ... command was 4 up in the history, so I accessed and ran it in the same way.
+Keys pressed: `<Ctrl-R>ssh cy<Enter>`
+*The `<Ctrl-R> command searches trhough my command history, so I typed in `ssh cy` to access the `ssh cyw007@ieng6.ucsd.edu` command. Then, I pressed `<Enter>` to run it.
 
 ### Clone your fork of the repository from your Github account (using the SSH URL)
 *Keys pressed: <up><up><up><up><enter>, <up><up><up><up><enter>
