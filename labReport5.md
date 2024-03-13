@@ -1,8 +1,20 @@
 # Lab Report 3: Bugs and Commands
 
-## Part 1: Bugs
+## Part 1: Debugging Scenario
+### Screenshot showing a symptom and a description of a guess of what the failure-inducing input it
 
-## Part 2: Researching Commands
+### Response from a TA asking a leading question or suggesting a command to try
+
+### Screenshot/terminal output showing information from trying that and a clear description of the bug
+
+### Information needed about the setup
+* File & directory structure:
+* Contents of each file before fixing the bug:
+* Full command line run to trigger the bug:
+* Description of what to edit to fix the bug
+
+## Part 2: Reflection
+*The most useful topic I learned from my lab experience during the second half of this quarter was how to use a script and take advantage of different commands to explore files and analyze specific text. Writing bash scripts helped me save a lot of time on my programming assignments for CSE 12 during testing, and the commands enabled me to get more information out of my code than I knew how to before. It was also fun to use vim to edit text in VSCode. 
 
 ### `find`: 4 command-line options used on files and directories from `./technical`
 **Using `find -regex`**
