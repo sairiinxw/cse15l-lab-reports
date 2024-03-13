@@ -29,7 +29,4 @@ I found out that I did not need to increment the size inside the if statement of
 ![Image](5WorkingCode2.png)
 
 ## Part 2: Reflection
-*The most useful topic I learned from my lab experience during the second half of this quarter was how to use a script and take advantage of different commands to explore files and analyze specific text. Writing bash scripts helped me save a lot of time on my programming assignments for CSE 12 during testing, and the commands enabled me to get more information out of my code than I knew how to before. It was also fun to use vim to edit text in VSCode. 
-**Sources**
-[Red Hat] (https://www.redhat.com/sysadmin/linux-find-command)
-[IBM] (https://www.ibm.com/docs/pl/aix/7.1?topic=f-find-command)
+The most useful topic I learned from my lab experience during the second half of this quarter was how to use a script and take advantage of different commands to explore files and analyze specific text. Writing bash scripts helped me save a lot of time on my programming assignments for CSE 12 during testing, and the commands enabled me to get more information out of my code than I knew how to before. It was also fun to use vim to edit text in VSCode. 
