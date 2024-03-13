@@ -1,20 +1,25 @@
-# Lab Report 3: Bugs and Commands
+# Lab Report 5: Putting it All Together
 
 ## Part 1: Debugging Scenario
 ### Screenshot showing a symptom and a description of a guess of what the failure-inducing input is
 Hello, I am trying to test my implementation of a linked list, but one of my tests is failing for the `add(int index, E data)` method. The symptom is that the size increments twice, instead of once. The failure-inducing input is when I use the `add` method with index 0 and data 12 to an empty list. Can I get some help debugging my code?
+\
 ![Image](5BuggyCode.png)
 \
 This is my test output in my terminal.
+\
 ![Image](5BuggyTest.png)
 \
 This is my implementation for the test case.
+\
 ![Image](5TestImplementation.png)
 \
 My `test.sh` contains the Junit commands, which I ran using `bash test.sh`.
+\
 ![Image](5Bash.png)
 \
 This is my file directory structure.
+\
 ![Image](5Directory.png)
 
 ### Response from a TA asking a leading question or suggesting a command to try
@@ -22,9 +27,11 @@ Since both your index and your empty list size is 0, your code will run line 122
 
 ### Screenshot/terminal output showing information from trying that and a clear description of the bug
 Thank you so much! I worked through the `add(E data)` method and found what caused the bug in my code.
+\
 ![Image](5WorkingTest.png)
 \
 I found out that I did not need to increment the size inside the if statement of `add(int index, E data)` because `add(E data)` already increments it for me. I deleted line 124 `this.size++;` and passed all my tests.
+\
 ![Image](5WorkingCode1.png)
 ![Image](5WorkingCode2.png)
 
