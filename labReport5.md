@@ -1,7 +1,7 @@
 # Lab Report 3: Bugs and Commands
 
 ## Part 1: Debugging Scenario
-### Screenshot showing a symptom and a description of a guess of what the failure-inducing input it
+### Screenshot showing a symptom and a description of a guess of what the failure-inducing input i2
 Hello, I am trying to test my implementation of a linked list, but one of my tests is failing for the `add(int index, E data)` method. The symptom is that the size increments twice, instead of once. The failure-inducing input is when I use the `add` method with index 0 and data 12 to an empty list. Can I get some help debugging my code?
 ![Image](5BuggyCode.png)
 \
