@@ -23,6 +23,7 @@ Since both your index and your empty list size is 0, your code will run line 122
 ### Screenshot/terminal output showing information from trying that and a clear description of the bug
 Thank you so much! I worked through the `add(E data)` method and found what caused the bug in my code.
 ![Image](5WorkingTest.png)
+\
 I found out that I did not need to increment the size inside the if statement of `add(int index, E data)` because `add(E data)` already increments it for me. I deleted line 124 `this.size++;` and passed all my tests.
 ![Image](5WorkingCode1.png)
 ![Image](5WorkingCode2.png)
