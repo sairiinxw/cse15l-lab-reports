@@ -3,7 +3,7 @@
 ### Log into ieng6
 ![Image](4ieng6.png)
 Keys pressed: `<Ctrl-R>ssh cy<Enter>`
-*The `<Ctrl-R> command searches trhough my command history, so I typed in `ssh cy` to access the `ssh cyw007@ieng6.ucsd.edu` command. Then, I pressed `<Enter>` to run it.
+*The `<Ctrl-R>` command searches through my command history, so I typed in `ssh cy` to access the `ssh cyw007@ieng6.ucsd.edu` command. Then, I pressed `<Enter>` to run it.
 
 ### Clone your fork of the repository from your Github account (using the SSH URL)
 *Keys pressed: <up><up><up><up><enter>, <up><up><up><up><enter>
