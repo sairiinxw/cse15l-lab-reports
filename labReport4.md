@@ -2,13 +2,13 @@
 
 ### Log into ieng6
 ![Image](4ieng6.png)
-*Keys pressed: `<Ctrl-R> ssh cy<Enter>` -> 'ssh cyw007@ieng6.ucsd.edu'
+*Keys pressed: `<Ctrl-R> ssh cy<Enter>` -> `ssh cyw007@ieng6.ucsd.edu`
 *The `<Ctrl-R>` command searches through my command history, so I typed in `ssh cy` to access the `ssh cyw007@ieng6.ucsd.edu` command. Then, I pressed `<Enter>` to run it and log into an ieng6 machine.
 
 ### Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](4clone.png)
-*Keys pressed: '<Ctrl-R> clone <Enter>' -> 'git clone git@github.com:sairiinxw/lab7.git'
-*The `<Ctrl-R>` command searches through my command history, so I typed in `clone` to find the specific git command: 'git clone git@github.com:sairiinxw/lab7.git' command. Then, I pressed `<Enter>` to run it and clone my fork of the lab7 repository.
+*Keys pressed: `<Ctrl-R> clone <Enter>` -> `git clone git@github.com:sairiinxw/lab7.git`
+*The `<Ctrl-R>` command searches through my command history, so I typed in `clone` to find the specific git command: `git clone git@github.com:sairiinxw/lab7.git` command. Then, I pressed `<Enter>` to run it and clone my fork of the lab7 repository.
 
 ### Run the tests, demonstrating that they fail
 ![Image](4run.png)
